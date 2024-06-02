@@ -51,7 +51,6 @@ public class WebhookController {
             String soundLocation="https://firebasestorage.googleapis.com/v0/b/lead-2e832.appspot.com/o/motrola_tone.mp3?alt=media&token=536abb22-d6e2-4baf-bc67-02d68c8af957";
             System.out.println("TrackingID: " + date);
 
-            // Construct the response map
             Map<String, Object> response = new HashMap<>();
             response.put("fulfillmentText", "Your order id " + orderId + " will be shipped on " + date);  // Simple text response
 
